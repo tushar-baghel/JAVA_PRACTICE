@@ -9,6 +9,9 @@ public class arrayConcepts {
             arr[i] = sc.nextInt(); // taking input through loop
         }
         System.out.println(Arrays.toString(arr)); // printing an array
+        for(int i = 0 ; i < arr.length ; i++){
+            System.out.println(arr[i]); // traversing each element of the array
+        }
     }
     
 }
