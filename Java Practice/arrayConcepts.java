@@ -14,10 +14,16 @@ public class arrayConcepts {
         }
         // 2d Array
         int arr2[][] = new int[3][3]; // initialising 2d Array
-        for(int i = 0 ; i < arr2.length ; i++){
-            for(int j = 0 ; i < arr2.length ; j++){
+        for(int i = 0 ; i < 3 ; i++){
+            for(int j = 0 ; j < 3 ; j++){
                 arr2 [i][j] = sc.nextInt(); // taking input in 2d array
             }
+        }
+        for(int i = 0 ; i < 3 ; i++){
+            for(int j = 0 ; j < 3 ; j++){
+                System.out.print(arr2[i][j] + " "); // printing 2d Array
+            }
+            System.out.println();
         }
         
 
