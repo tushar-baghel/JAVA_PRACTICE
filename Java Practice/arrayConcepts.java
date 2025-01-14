@@ -1,4 +1,4 @@
-import java.util.Arrays;
+jiimport java.util.Arrays;
 import java.util.Scanner;
 
 public class arrayConcepts {
@@ -19,12 +19,7 @@ public class arrayConcepts {
                 arr2 [i][j] = sc.nextInt(); // taking input in 2d array
             }
         }
-        for(int i = 0 ; i < 3 ; i++){
-            for(int j = 0 ; j < 3 ; j++){
-                System.out.print(arr2[i][j] + " "); // printing 2d Array
-            }
-            System.out.println();
-        }
+        
         
 
 
