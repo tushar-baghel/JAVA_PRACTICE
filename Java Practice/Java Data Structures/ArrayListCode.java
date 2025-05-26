@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Iterator;
 
 public class ArrayListCode {
     public static void main(String[] args) {
@@ -6,6 +7,11 @@ public class ArrayListCode {
         cars.add("BMW");
         cars.add("Audi");
         System.out.println(cars);
+
+        Iterator<String> it = cars.iterator();
+        while(it.hasNext()) {
+            System.out.println(it.next());            
+        }
 
     }
     

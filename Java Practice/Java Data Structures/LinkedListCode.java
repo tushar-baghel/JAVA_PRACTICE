@@ -1,3 +1,4 @@
+import java.util.Iterator;
 import java.util.LinkedList;
 
 public class LinkedListCode { 
@@ -7,6 +8,12 @@ public class LinkedListCode {
         fruits.add("Orenji");
         fruits.add("banana");
         System.out.println(fruits);
+
+        Iterator<String> it = fruits.iterator(); // adding Iterator
+
+        while (it.hasNext()) {
+            System.out.println(it.next());            
+        }
 
     }
     
